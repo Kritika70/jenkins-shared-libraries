@@ -1,3 +1,3 @@
 def call(){
-  mkdir -p "devops"
+  sh "mkdir -p devops"
 }
