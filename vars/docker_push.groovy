@@ -7,3 +7,4 @@ def call(String Project, String ImageTag){
  sh "docker image tag ${Project}:${ImageTag}  ${env.dockerHubUser}/${Project}:${ImageTag}"
  sh "docker push ${env.dockerHubUser}/${Project}:${ImageTag}"
 }
+}
